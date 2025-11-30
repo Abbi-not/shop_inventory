@@ -23,7 +23,7 @@ export const PrintableReceipt = forwardRef<HTMLDivElement, ReceiptProps>(
       <div ref={ref} className="hidden print:block print:p-8">
         <div className="max-w-md mx-auto">
           <div className="text-center mb-6">
-            <h1 className="text-2xl font-bold">InventoryPro</h1>
+            <h1 className="text-2xl font-bold">SHoSHoP</h1>
             <p className="text-sm text-gray-600">Sales Receipt</p>
           </div>
 
@@ -92,8 +92,8 @@ export const PrintableReceipt = forwardRef<HTMLDivElement, ReceiptProps>(
           </div>
 
           <div className="text-center text-xs text-gray-600 mt-6">
-            <p>Thank you for your business!</p>
-            <p className="mt-1">inventorypro.com</p>
+            <p>Thank you for Shopping With Us!</p>
+            <p className="mt-1">SHoSHoP.com</p>
           </div>
         </div>
       </div>
